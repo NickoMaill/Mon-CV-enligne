@@ -1,0 +1,85 @@
+@media screen and (max-width: 1000px){
+
+    body{
+        font-size: 1.3rem;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    header > h2{
+        padding-left: 2rem;
+    }
+
+    .nav_links{
+        display: none;
+    }
+
+    .section_content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_content{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .list_profil > ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .my_contact > .contact_content{
+       border: none;
+       box-shadow: none;
+       width: auto;
+       margin-top: 1rem;
+       margin-bottom: 0rem;
+
+    }
+
+    .message_form textarea{
+        padding-bottom: 9.8rem;
+        margin:0;
+
+    }
+
+    .send_button{
+        padding-top: 1rem;
+    }
+
+
+
+    footer{
+        padding:4rem 0 4rem 0
+    }
+
+    .annex_content{
+        justify-content:space-between;
+    }
+
+    .mail{
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        font-size: 1.5rem;
+
+    }
+
+    .mail_icon{
+        border-radius: 0%;
+        max-width: 15px;
+        filter: invert(99%) sepia(3%) saturate(202%) 
+        hue-rotate(250deg) brightness(113%) contrast(100%);
+    }
+
+    .mail_label{
+        text-decoration: none;
+        text-transform: none;
+        color: #fff;
+        padding-left: 1rem;
+        
+    }
+}

@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'poppins';
+    font-stretch: 100%;
+    font-size: 1.4rem;
+}
+
+
+/************************************************ header ****************************************/
+
+
+header{
+    background-color: #0475ba;
+    padding: 40px;
+    height: 7rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+
+}
+
+header h2{
+    margin-right: 3rem;
+    margin-left: 1rem;
+}
+
+header > h2 > a{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+
+.nav_links > a{
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+
+/********************************************* Name ******************************************/
+
+.section_content{
+    padding: 4rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name_job{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name_job > h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+
+}
+
+.name_job >h2{
+    color: #0475ba;
+}
+
+.section_content > img{
+    border-radius: 50%;
+    width: 200px;
+    
+}
+
+/**************************************************** Profil ******************************************/
+
+.my_profil{
+    background-color: #0475ba;
+    padding: 40px;
+    color: #fff;
+}
+
+.info_content{
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.profil_title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.list_profil > ul {
+    display: flex;
+    flex-direction: column;
+}
+.list_profil > ul > li{
+    margin: 1.5rem;
+}
+
+/************************************************** experience ************************************/
+
+.my_exp{
+    padding: 40px;
+
+}
+
+.exp_content{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.exp_title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.exp_details1{
+    padding:2rem;
+
+}
+
+.subexp_title1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+
+.exp_text1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp_details2{
+    padding: 2rem;
+
+}
+
+.subexp_title2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.exp_text2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp_details3{
+    padding:2rem;
+
+
+}
+
+.subexp_title3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.exp_text3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.exp_details4{
+    padding:2rem;
+    
+    
+}
+
+.subexp_title4{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.exp_text4{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+/*********************************** Qualification **********************************/
+
+
+.my_qualifi{
+    background-color: #0475ba;
+    color: #fff;
+    padding:40px
+}
+
+.qualifi_content{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.qualifi_title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.subquali_title1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.qualifi_text1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+h4{
+    padding-bottom: 0,5rem;
+}
+
+.subquali_title2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.qualifi_text2{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.subquali_title3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.qualifi_text3{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+/**************************************** Centre d'intérêt ****************************************/
+
+.my_interest{
+    padding: 40px;
+}
+
+
+.interest_content{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.list_interest > ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.interest_title{
+    display: flex;
+    justify-content: center;
+}
+
+.list_interest > ul > li{
+    
+    margin: 1.5rem;
+    
+}
+
+
+/******************************************** footer*******************************************/
+
+
+footer{
+    background-color: #0475ba;
+    padding: 40px;
+}
+
+.annex_content{
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.folio{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.folio_title{
+    padding-top: 0.3rem;
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+
+.linke_title{
+    padding-top: 0.3rem;
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+
+
+.folio > img{
+    border-radius: 0%;
+    max-width: 15px;
+    filter: invert(99%) sepia(3%) saturate(202%) 
+    hue-rotate(250deg) brightness(113%) contrast(100%);
+}
+
+.linkedin > img{
+    border-radius: 0%;
+    max-width: 15px;
+    filter: invert(99%) sepia(3%) saturate(202%) 
+    hue-rotate(250deg) brightness(113%) contrast(100%);
+
+}
+
+.mail{
+    display: none;
+}

@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'poppins';
+    font-stretch: 100%;
+    font-size: 1.4rem;
+}
+/**********  header  **************/
+header{
+    background-color: #0475ba;
+    padding: 40px;
+    height: 7rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+
+header h2{
+    margin-right: 3rem;
+    margin-left: 1rem;
+    
+}
+
+header > h2 > a{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+
+.nav_links > a{
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+
+/************form *****************/
+
+.my_contact > .contact_content{
+    margin: 10rem auto;
+    width: 35rem;
+    padding: 41px;
+    border:solid;
+    border-radius: 1rem;
+    border-width: 0;
+    border-top-color: #0475ba;
+    border-top-width: 8px;
+    box-shadow: 5px 5px 30px 5px #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+h3{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+label{
+    font-size: 1.3rem;
+    font-weight:700;
+}
+
+.form_details{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.name_form, .email_form, .object_form, .message_form{
+    width: 30rem;
+    padding-bottom: 2rem;
+}
+
+.name_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.name_text{
+    padding: 1rem;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.email_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.email_text{
+    padding: 1rem;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.object_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.object_text{
+    padding: 1rem;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.message_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.message_text{
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.send_button{
+    display: flex;
+}
+
+.button{
+    background-color: #0475ba;
+    color: #fff;
+    font-family: 'poppins';
+    border: none;
+    width: 100%;
+    margin: auto;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+
+/************** footer *****************/
+
+footer{
+    background-color: #0475ba;
+    padding: 4rem;    
+}
+
+.annex_content{
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;  
+}
+
+.folio{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.folio_title{
+    padding-top: 0.3rem;
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+
+.linke_title{
+    padding-top: 0.3rem;
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+
+
+.folio > img{
+    border-radius: 0%;
+    max-width: 15px;
+    filter: invert(99%) sepia(3%) saturate(202%) 
+    hue-rotate(250deg) brightness(113%) contrast(100%);
+}
+
+.linkedin > img{
+    border-radius: 0%;
+    max-width: 15px;
+    filter: invert(99%) sepia(3%) saturate(202%) 
+    hue-rotate(250deg) brightness(113%) contrast(100%);
+
+}
+
+.mail{
+    display: none;
+}

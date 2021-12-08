@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta name="description" content="Mon Super CV de developeur"/>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="CSS/Styles_contact.css">
+        <link rel="stylesheet" href="CSS/Queries_contact.css">
+        <title>Nicolas Maillols - CV</title>
+    </head>
+    <body>
+
+        <header>
+            <h2><a class="Nicolas" href= "Index.html">Nicolas Maillols</a></h2>
+            <nav class="nav_links">
+                <a href="Index.html">Profil</a>
+                <a href="Index.html">Experiences</a>
+                <a href="Index.html">Formations</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <form class="my_contact">
+                <div class="contact_content">
+                    <div class="contact_tilte">
+                        <h3>Formulaire de contact</h3>
+                    </div>
+
+                    <div class="form_details">
+                        <div class="name_form">
+                            <label for="name">Nom</label>
+                            <input class="name_text" type="text" 
+                            id="name" required placeholder="Votre nom"/>
+                        </div>
+
+                        <div class="email_form">
+                            <label for="email">Email</label>
+                            <input class="email_text" type="email" 
+                            id="email" required placeholder="Votre email"/>
+                        </div>
+
+                        <div class="object_form">
+                            <label for="object">Objet</label>
+                            <input class="object_text" type="text" 
+                            id="object" required placeholder="Objet de votre message"/>
+                        </div>
+
+                        <div class="message_form">
+                            <label for="message">Message</label>
+                            <textarea rows="10" class="message_text" type="text" 
+                            id="message" required placeholder="Votre message">
+                            </textarea>
+                        </div>
+                        <div class="send_button">
+                            <input class="button" type="submit" name="envoyer" />
+                        </div>
+                    </div>
+                </div>  
+            </form>
+        </main>
+        <footer class="my_annex">
+            <div class="annex_content">
+                <div class="folio">
+                    <img class="folio_icon" link="https://nickomprod.book.fr/" src="img/briefcase-solid.svg">
+                    <a class="folio_title" href="https://nickomprod.book.fr/" title="Book Nicolas Maillols" 
+                    target="_blank">Book</a>
+                </div>
+                <div class="linkedin">
+                    <img class="linke_icon" alt="Linkedin_icon" src="img/linkedin-in-brands.svg">
+                    <a class="linke_title" alt="Linkedin Nicolas Maillols" href="https://www.linkedin.com/in/nicolas-maillols-ab7a09178/"
+                    target="_blank">LinkedIn</a>
+                </div>
+            </div>
+            <div class="mail">
+                <img class="mail_icon" alt="contact_icon" src="img/at-solid.svg">
+                <a class="mail_label" href="contact.html">Contact</a>
+            </div>
+    </footer>
+    </body>
+</html>
